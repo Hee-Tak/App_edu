@@ -68,5 +68,4 @@
         android:layout_height="wrap_content"
         android:text="12월 15일"/>
 
-
 </LinearLayout>
