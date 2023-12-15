@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button1"
+        android:backgroundTint="#ff0000"
+        android:onClick="goToMainActivity2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button2"
+        android:backgroundTint="#00ff00"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="Button3"
+        android:backgroundTint="#0000ff"/>
+
+    <!--
+    margin, padding : 빈공간
+    margin : 뷰와 뷰 사이의 간격
+    padding : 뷰의 컨텐츠와 뷰 테두리 사이의 간격
+    margin, padding 속성을 이용하면 4방향 모두 동일한 사이즈로 간격이 설정
+    한방향만 설정하고 싶다면 paddingLeft,paddingTop,... 등과 layout_marginRight,layout_marginBottom,... 속성을 이용
+    -->
+
+    <!--
+    visibility : 뷰가 화면에 출력되어야 하는지에 대한 설정
+    visible(default), invisible, gone 값으로 설정
+    invisible과 gone은 모두 화면에 뷰가 보이지 않게 하지만 사이즈를 확보하는지에 대한 차이가 있다.
+    -->
+
+</LinearLayout>

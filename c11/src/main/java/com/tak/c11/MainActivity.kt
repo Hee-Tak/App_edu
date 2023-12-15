@@ -44,5 +44,7 @@ class MainActivity : AppCompatActivity() {
          */
 
         setContentView(R.layout.activity_main) //뷰와 관련해서는 일반적으로 xml 파일 이용
+
+        val textView1: TextView = findViewById(R.id.text2) //얘로 뷰 객체 획득해서 사용 가능
     }
 }
