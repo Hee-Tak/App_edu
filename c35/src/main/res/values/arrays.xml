@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="language">
+        <item>한국어</item>
+        <item>영어(영국)</item>
+        <item>영어(미국)</item>
+        <item>독일어</item>
+        <item>일본어</item>
+        <item>중국어</item>
+        <item>프랑스어</item>
+        <item>포르투갈어</item>
+        <item>네덜란드어</item>
+        <item>스페인어</item>
+        <item>이탈리아어</item>
+    </string-array>
+</resources>
