@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu1"
+        android:title="menu1"/> <!--그냥 오버플로우로 흐르는 메뉴-->
+
+    <item
+        android:id="@+id/menu2"
+        android:title="menu2"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="always"/>  <!--never(디폴트) 이거 입력하면 항상 오버플로우 메뉴로 출력. 이외는 액션아이템 출력-->
+
+    <item
+        android:id="@+id/menu3"
+        android:title="menu3"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+
+</menu>
+
+<!-- 전시간 실습에서는 코틀린/자바 파일에서 직접 매개변수인 메뉴 객체에 add 함수로 메뉴를 일일이 달아줬었음
+
+    근데 이제는 이걸 xml파일로 빼내서 했음
+
+    그래서 코틀린 파일내에 함수에서 이 xml 파일을 이용해서 메뉴를 적용만 시켜주면 됨 => 이 적용시켜주는 클래스가 MenuInflater
+
+
+-->
